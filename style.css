@@ -39,3 +39,20 @@ div {
     background-color: gold;
     margin: 1rem      /* (바깥)여백 */
 }
+
+.bg-gold {
+    background-color: gold
+}
+.bg-lime {
+    background-color: lime
+}
+.box {
+    width: 300px; /* 가로 폭 */
+    height: 400px; /* 세로 높 */
+}
+.display-block {
+    display: block;
+}
+.display-inlineblock {
+    display: block;
+}
