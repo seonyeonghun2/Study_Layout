@@ -1,0 +1,41 @@
+@charset "utf-8";
+/*
+    css selector syntax : 선택자 문법
+    1) 전체 선택자 : *
+    2) 태그 선택자 : p 또는 h1 (태그명령)
+    3) 클래스 선택자 : .클래스이름
+    4) 아이디 선택자 : #아이디이름
+    5) 그룹 선택자 : p, h1, strong (콤마)
+    ..그밖에 선택자..
+*/
+
+.box {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+
+}
+.box2 {
+    width: 50px;
+    height: 50px;
+
+}
+.box3 {
+    width: 100px;
+    height: 100px;
+}
+.bg_gold {
+    background-color: gold
+}
+.bg_orange {
+    background-color: orange
+}
+.bg_orangered {
+    background-color: orangered;
+}
